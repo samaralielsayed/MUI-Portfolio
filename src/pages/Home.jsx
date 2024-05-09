@@ -33,9 +33,9 @@ const Home = () => {
     color: '#ec5b53',
     marginBottom: '10px',
     
-    textTransform: 'uppercase',color: '#ec5b53',
+    color: '#ec5b53',
     fontWeight:'bold' }}>
-     Hi There!
+    Hello, I'm
   </Typography>
   <Typography  sx={{fontWeight:'bold',color:'#273e4c'}}>
 
