@@ -9,8 +9,8 @@ import image from "../assets/images/IMG-20230711-WA0083-removebg-preview.png"
 
 const About = () => {
   return (
-    <Box id="about">
-    <Box sx={{backgroundColor:'#273e4c66',color:'black'}} >
+    <Box id="about" >
+    <Box sx={{backgroundColor:'#273e4c66',color:'black', minHeight: "700px",}} >
 
       <Container maxWidth="lg" >
         <Box

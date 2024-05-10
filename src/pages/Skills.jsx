@@ -49,7 +49,7 @@ const Skils = () => {
   return (
     <Box
       sx={{
-        minHeight: "500px",
+        minHeight: "700px",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
@@ -88,7 +88,7 @@ const Skils = () => {
         {
       skils.map((skil)=>{
         return(
-        <Box sx={{display:'flex',justifyContent:'space-between',margin:'20px 0',alignItems:'center',borderRadius:'5px',backgroundColor:'white',padding:'15px  ',width:'200px'}} > 
+        <Box key={skil.name} sx={{display:'flex',justifyContent:'space-between',margin:'20px 0',alignItems:'center',borderRadius:'5px',backgroundColor:'white',padding:'15px  ',width:'200px'}} > 
 
           <img src={skil.img} width='41px'/>
           <Typography>

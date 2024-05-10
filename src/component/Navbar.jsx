@@ -40,7 +40,7 @@ const Navbar = () => {
             variant="h6"
             noWrap
             component="a"
-            href="#app-bar-with-responsive-menu"
+            href="#home"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
@@ -48,6 +48,7 @@ const Navbar = () => {
               color: "inherit",
               flexGrow: 1,
               textDecoration: "none",
+              "&:hover": {color: "#bb2b2b"}
               
               
             }}
@@ -59,7 +60,7 @@ const Navbar = () => {
             variant="h5"
             noWrap
             component="a"
-            href="#app-bar-with-responsive-menu"
+            href="#home"
             sx={{
               mr: 2,
               display: { xs: "flex", md: "none" },
@@ -67,6 +68,7 @@ const Navbar = () => {
               fontWeight: 700,
               color: "inherit",
               textDecoration: "none",
+              "&:hover": {color: "#bb2b2b"}
             }}
           >
            Samar Ali
@@ -97,7 +99,7 @@ const Navbar = () => {
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               sx={{
-                display: { xs: "block", md: "none" },
+                display: { xs: "block", md: "none" },"&:hover": {color: "red"}
               }}
             >
               {pages.map((page) => (
@@ -113,7 +115,7 @@ const Navbar = () => {
                 key={page.name}
                 href={page.link}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "white", display: "block" }}
+                sx={{ my: 2, color: "white", display: "block" ,"&:hover": {color: "red"}}}
               >
                 {page.name}
               </Button>
