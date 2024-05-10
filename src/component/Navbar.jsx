@@ -16,6 +16,7 @@ import MenuItem from "@mui/material/MenuItem";
 const pages = [
   { link: "/#home", name: "Home" },
   { link: "/#about", name: "About" },
+  { link: "/#protfolio", name: "Protfolio" },
   { link: "/#skills", name: "Skills" },
   { link: "/#contact", name: "Contact" },
 ];

@@ -61,7 +61,7 @@ const Home = () => {
     <Button variant="outlined" sx={{color:'#273e4c',borderColor:'#273e4c'}}>Hire Me</Button> */}
     <Box
     component="a"
-    sx={{ color:"#273e4c", "&:hover": { color: "#434f56" } ,border:'1px solid #273e4c',borderRadius:'50% ',padding:' 15px 14px 10px 14px'}}
+    sx={{ color:"#273e4c", "&:hover": { borderColor:'#922f45', color: "#922f45"} ,border:'1px solid #273e4c',borderRadius:'50% ',padding:' 15px 14px 10px 14px'}}
     className="icon"
     href="https://github.com/samaralielsayed"
   >
@@ -71,7 +71,7 @@ const Home = () => {
 
   <Box
     component="a"
-    sx={{ color:"#273e4c", "&:hover": { color: "#434f56" } ,border:'1px solid #273e4c',borderRadius:'50% ',padding:' 15px 14px 10px 14px'}}
+    sx={{ color:"#273e4c", "&:hover": {borderColor:'#922f45', color: "#922f45" } ,border:'1px solid #273e4c',borderRadius:'50% ',padding:' 15px 14px 10px 14px'}}
     className="icon"
     href="https://github.com/samaralielsayed"
   >
@@ -81,7 +81,7 @@ const Home = () => {
   <Box 
   
     component="a"
-    sx={{ color:"#273e4c", "&:hover": { color: "#434f56" } ,border:'1px solid #273e4c',borderRadius:'50% ',padding:' 15px 14px 10px 14px'}}
+    sx={{ color:"#273e4c", "&:hover": { borderColor:'#922f45', color: "#922f45"} ,border:'1px solid #273e4c',borderRadius:'50% ',padding:' 15px 14px 10px 14px'}}
     className="icon"
     href="https://github.com/samaralielsayed"
   >
@@ -90,7 +90,7 @@ const Home = () => {
   </Box>
   <Box
     component="a"
-    sx={{ color:"#273e4c", "&:hover": { color: "#434f56" } ,border:'1px solid #273e4c',borderRadius:'50% ',padding:' 15px 14px 10px 14px'}}
+    sx={{ color:"#273e4c", "&:hover": { borderColor:'#922f45', color: "#922f45"} ,border:'1px solid #273e4c',borderRadius:'50% ',padding:' 15px 14px 10px 14px'}}
     className="icon"
     href="https://github.com/samaralielsayed"
   >

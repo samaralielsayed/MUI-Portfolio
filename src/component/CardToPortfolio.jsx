@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import { Box } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 const CardToPortfolio = (props) => {
-  const{name, image,gitHub,livDemo}=props
+  const{name, image,gitHub,liveDemo,lang}=props
   return (
     <Box>
 
@@ -29,9 +29,9 @@ const CardToPortfolio = (props) => {
         <Box component="a" className="icon" sx={{color:"#273e4c", "&:hover": { color: "#922f45" }}}
     href={gitHub} ><GitHubIcon /></Box>
 
+<Box sx={{fontWeight:'bold',color:"#273e4c","&:hover": { color: "#922f45" ,cursor:'pointer'}}} > {lang}</Box>
 <Box>
-
-<Button variant="contained"  sx={{backgroundColor:'#273e4c',"&:hover": { color: "#922f45", backgroundColor:'transparent'}}}>Live Demo</Button>
+<Button component="a"  href={liveDemo} variant="outlined"  sx={{backgroundColor:'#273e4c',color:'white',"&:hover": { color: "#922f45", borderColor:'#922f45'}}}>Live Demo</Button>
 </Box>
         {/* <Button size="small">Learn More</Button> */}
       </CardActions>

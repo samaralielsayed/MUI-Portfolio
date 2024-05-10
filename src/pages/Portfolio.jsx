@@ -9,26 +9,29 @@ const Portfolio = () => {
       image:'blog.jpg',
       gitHub:'https://github.com/samaralielsayed/Blog-React-API-Node.js',
       liveDemo:'https://blog-react-green.vercel.app/',
-      name:'Blog Website'
+      name:'Blog Website',
+      lang:'React'
 
     },
     {
-      image:'',
+      image:'ecommerce.jpg',
       gitHub:'https://github.com/abrarhussien/E-commerce-Angular',
       liveDemo:'https://e-commerce-zero-two.vercel.app/home',
-      name:'E-commerce website'
+      name:'E-commerce website',
+      lang:'Angular'
 
     },
     {
-      image:'blog.jpg',
-      gitHub:'https://github.com/samaralielsayed/Blog-React-API-Node.js',
-      liveDemo:'https://blog-react-green.vercel.app/',
-      name:'Blog Website'
+      image:'exam.jpg',
+      gitHub:'https://github.com/samaralielsayed/Examination-Project',
+      liveDemo:'https://examination-project.vercel.app/',
+      name:'Examination System',
+      lang:'JavaScript'
 
     }
   ]
   return (
-    <Box sx={{minHeight: '700px',display:'flex',alignItems:'center',justifyContent:'center',backgroundColor:'#273e4c66'}}>
+    <Box sx={{minHeight: '700px',display:'flex',alignItems:'center',justifyContent:'center',backgroundColor:'#273e4c66'}} id="protfolio">
       {/* ontainer  */}
       <Container >
         <Box sx={{display:'flex',alignItems:'center',justifyContent:'center',flexDirection:'column',marginBottom:'50px'}}>
@@ -42,7 +45,7 @@ const Portfolio = () => {
         
         {
       projects.map((project)=>{
-        return(<Card  name={project.name} key={project.name} image={project.image} gitHub={project.gitHub} liveDemo={project.liveDemo}/>)
+        return(<Card  name={project.name} key={project.name} image={project.image} gitHub={project.gitHub} liveDemo={project.liveDemo} lang={project.lang}/>)
 
       })
     }

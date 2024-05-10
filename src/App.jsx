@@ -6,6 +6,7 @@ import Navbar from './component/Navbar'
 import Home from './pages/Home'
 import About from './pages/About'
 import Portfolio from './pages/Portfolio'
+import Skils from './pages/Skils'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <Home/>
     <About/>
     <Portfolio/>
+    <Skils/>
     </>
   )
 }

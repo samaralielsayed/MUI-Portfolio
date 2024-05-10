@@ -9,8 +9,8 @@ import image from "../assets/images/IMG-20230711-WA0083-removebg-preview.png"
 
 const About = () => {
   return (
-    <>
-    <Box sx={{backgroundColor:'#273e4c66',color:'black'}} id="about">
+    <Box id="about">
+    <Box sx={{backgroundColor:'#273e4c66',color:'black'}} >
 
       <Container maxWidth="lg" >
         <Box
@@ -48,47 +48,15 @@ Ismailia Branch.</Typography>
             <Typography> Faculty  :Computers and Artificial Intelligence </Typography>
           </Box>
           </Stack>
-          <Button component="a" variant="outlined" sx={{color:'white',backgroundColor:'#922f45' ,borderColor:'#922f45'}}  download
+          <Button component="a" variant="outlined" sx={{color:'white',backgroundColor:'#922f45' ,borderColor:'#922f45',"&:hover": {borderColor:'#922f45', color: "#922f45", backgroundColor:'transparent'}}}  download
             href="../assets/samar_cv.pdf">DOWNLOAD CV</Button>
 
-            
-          {/* <Grid container   alignItems="center" justifyContent='between' padding='10px 0px' sx={{border:"1px solid #5585a2" }  }>
-          <Grid item xs={3} >
-          Name : Samar Ali 
-            </Grid>
-            <Grid item xs={7} >
-            Phone  : +20 11 230 83 52 
-            </Grid>
-            <Grid item xs={3} >
-            Address :Cairo, Egypt 
-            </Grid>
-            <Grid item xs={7} >
-            Email  : samaralielsayed52@gmail.com 
-            </Grid>
-            <Grid item xs={3} >
-            Age  :23 
-            </Grid>
-            <Grid item xs={7} >
-            Faculty  :Computers and Artificial Intelligence
-            </Grid>
-            </Grid> */}
-          {/* <Box sx={{borderRadius:'25%  5%',padding:'45px ' }}>
-          <Typography >Name : Samar Ali </Typography>
-          <Typography >Phone  : +20 11 230 83 52 </Typography>
-          <Typography >Email  : samaralielsayed52@gmail.com  </Typography>
-          <Typography >Age  :23 </Typography>
-          <Typography >Address :Cairo, Egypt </Typography>
-          <Typography >Address :Cairo, Egypt </Typography>
-          <Typography >Faculty  :Computers and Artificial Intelligence</Typography>
-        
-
-          </Box> */}
           </Grid>
           </Grid>
         </Box>
       </Container>
     </Box>
-    </>
+    </Box>
   );
 };
 
