@@ -63,7 +63,7 @@ const Home = () => {
     component="a"
     sx={{ color:"#273e4c", "&:hover": { borderColor:'#922f45', color: "#922f45"} ,border:'1px solid #273e4c',borderRadius:'50% ',padding:' 15px 14px 10px 14px'}}
     className="icon"
-    href="https://github.com/samaralielsayed"
+    href="samaralielsayed52@gmail.com"
   >
     
     <EmailIcon  />
@@ -83,7 +83,7 @@ const Home = () => {
     component="a"
     sx={{ color:"#273e4c", "&:hover": { borderColor:'#922f45', color: "#922f45"} ,border:'1px solid #273e4c',borderRadius:'50% ',padding:' 15px 14px 10px 14px'}}
     className="icon"
-    href="https://github.com/samaralielsayed"
+    href="https://www.linkedin.com/in/samar-ali-elsayed"
   >
     
     <LinkedInIcon/>
@@ -92,7 +92,7 @@ const Home = () => {
     component="a"
     sx={{ color:"#273e4c", "&:hover": { borderColor:'#922f45', color: "#922f45"} ,border:'1px solid #273e4c',borderRadius:'50% ',padding:' 15px 14px 10px 14px'}}
     className="icon"
-    href="https://github.com/samaralielsayed"
+    href="https://www.linkedin.com/in/samar-ali-elsayed"
   >
     
     <FacebookOutlinedIcon/>
